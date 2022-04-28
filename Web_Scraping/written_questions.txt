@@ -1,0 +1,96 @@
+Part 1 :
+List and explain three scenarios where scraping data may pose a risk to external and internal stakeholders.
+Answer :
+- Plagiarism : By using the web scraping, some information could be extracted and reproduced somewhere. This
+action defines Plagiarism such that it's a "Plagiarism is basically copying someone else’s copyrighted work and
+republishing it as your own."
+- Spamming : People could scrape the website of social media or need-to-register website to collect the emails for the
+financial purposes. For example, some spammers could go into the Amazon profiles or Facebook in order to scrape
+the emails and phone numbers to send ou the merchandise several times
+- Identity Thief : "Social media profiles and data in them can be scraped using data scraping techniques.
+People with malicious intentions can do this for identity theft and similar illegal acts."
+(https://www.promptcloud.com/blog/is-data-scraping-ethical/). This could be used for the identity disguise or for
+some financial threats.
+
+Part 2 :
+Selected Site : Reddit
+1.) What do you imagine a user might expect about the privacy of their personal data on the site? Does the expectation
+of privacy vary across different sections or types of data on the site?
+Answer : Since this website doesn't show your personal information to have a conversation (it uses the username to show
+instead), users would expect at least their identities to be confidential unless they're willing to. The expectation
+would be varied based on the action users used to have in the Reddit. Some information, such as financial statement,
+could be found through the private chats (in some channel such as r/textbookrequest that needs some money transaction)
+
+2.) Identify one vulnerable user group for whom data scientists scraping data should exercise more caution.
+Answer : Admins of financial-related channels could be vulnerable for the scraping process. There are information privacy
+for both sellers and buyers to transfer goods. Therefore, if the data scientists scrapes or traces some of the data
+that could lead to the details of the transaction and either buyer or seller know about this scraping, the admins of
+the channels could be vulnerable for allowing the scraping, along with both buyers and sellers.
+
+3.) Describe one project or use case where scraping data from this site could cause harm.
+Describe one project or use case where scraping data from this site could be beneficial.
+Answer :
+- Harms : Some projects related to NLP or language tokenization and the usage to sensitive topics such as politics,
+and race. These information could be heavily biased and heavily fake. Therefore, if we scrape the data and release
+in any form that shows the posts in the channel, there will be two users who got affected. First are the people in the
+reports. They could be judged based on their reaction without enough contexts. The other group could be the people
+reading the reports. Their mindset and understanding of peopel could be deviated, and they could get the fake news, which
+makes them vulnerable for some misinformation.
+
+- Benefits : Some research based on the general topics such as mentioning of some characters in anime or plants
+getting reports in the r/plants. These information doesn't cause a harm in the large terms (the worst case could
+be an interpretation of information). These information could yield the benefits such as giving the better picture
+of some Reddit channels, or could give an advice for health and lifestyle also. For example, with the data scraping on
+the health or lifestyle channel, we could get the information or suggestion that are beneficial based on likes or
+comments.
+
+4.) What types of data on the site should data scientists be especially cautious about collecting?
+If any, what types of data on the site should not be scraped by data scientists?
+
+- Consider the creator of the data, specific content of the data, user expectations of privacy,
+and biases that shape the data.
+- Data types could be specific, like usernames and dates, or general, like posts about a certain subject or posts
+from certain user groups.
+
+Answer : The types of data that should be concerned is as follows
+1.) Username : This information should be treated with concern such that if this information is scraped, the data
+scientist has a full responsibility if the people with the said username got an aftermath after the report is published
+2.) Comment : Some comment could cause the controversy between people (especially politics, finance, and race topics)
+3.) Personal Information : This information is forbidden for the data scientists because these information is required
+to create the account with the promise that their information will not be leaked. Therefore, if data scientists
+scraped these data, they could face a problem with stakeholders.
+
+5.) Let’s think about missing data for a second. It’s important to remember that the scraped data isn’t all encompassing.
+What kind of data may be difficult to get access to? Give one example. Why do you think that is?
+What is the impact of this missing or inaccessible data?
+Answer :
+The missing data could be the personal information for both individual and organizations (even for government, or big
+industries). For example, the address could be hard to found in the small websites, or the "gun trace data" like
+what portrayed in the "Mimi Onuoha" library for the government. The reason is these information are sensitive from
+individual safety to country threats (such as if allied countries know about the gun trade, they could threat the
+leader of that countries by deviate some data or emphasizes the untrustworthy point).
+
+However, these inaccessible data would make a problem in terms of error for some interpretation of data. For example,
+the economic development of the countries may be underestimated because some goods are not publicized for the
+calculation of the growth
+
+Part 3 :
+Question: The concept of a “data economy” comes with the perspective that data is a form of economic resource and capital.
+To what, if any, standards of social responsibility should we hold researchers, companies, and other entities
+that use data to turn a profit? What price would you put on your own personal data, if any?
+Justify your opinion and describe which opinions you agree or disagree with in the article.
+Answer :
+There should be the standard responsibility for the data-related entities that could gain the profits from the users.
+Even though there are some measures shown (such as giving products or money for the survey), there should be more
+measure for the free data. For example, the decrease in the credit card fees when the financial institution trying
+to store the information related to individual purchase.
+
+For the price on the personal data, it depends on how confidential the information is. For example, the information
+about the name and hobbies could be easily giving to some organization in the exchange of a chance to work there. However,
+for financial information or address, it'll be more valuable because some of them could harm my reputition and assets.
+For example, the identity thief or monetary thief. These information is still givable to financial institution.
+However, we must be assured that these information will not exposed or used for financial beneifts
+
+Based on the articles, I agree on how economists and data scientists determine the data in that fashion. I also
+agree on the importance of putting the value on the data based on how confidential it is, and the notion of some data
+should be publicized.
